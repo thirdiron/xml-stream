@@ -1,5 +1,12 @@
 # XmlStream
 
+This is a fork of the XmlStream module created to add a single new
+feature: an alwaysCollect option, which when set will try to collect
+children into arrays.  Intended for use when processing xml that will
+likely have multiple children of same element type throughout the xml
+tree and for programmatic processing of xml:any type schemas with
+multiple children.
+
 XmlStream is a Node.js XML stream parser and editor, based on
 [node-expat](https://github.com/astro/node-expat) (libexpat SAX-like parser
 binding).
