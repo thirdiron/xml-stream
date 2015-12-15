@@ -6,7 +6,7 @@
     "parser",
     "expat"
   ],
-  "version": "0.4.6",
+  "version": "0.4.7",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Anatoly Ressin <anatoly@assistunion.com>",
@@ -20,8 +20,8 @@
     "url": "git://github.com/assistunion/xml-stream.git"
   },
   "dependencies": {
-    "iconv": "^2.1.4",
-    "node-expat": "^2.3.1",
+    "iconv": "2.1.11",
+    "node-expat": "2.3.12",
     "readable-stream": "^1.0.31"
   },
   "directories": {
