@@ -20,15 +20,15 @@
     "url": "git://github.com/assistunion/xml-stream.git"
   },
   "dependencies": {
-    "iconv": "^2.3.0",
-    "node-expat": "^2.3.16",
-    "readable-stream": "^1.0.31"
+    "iconv": "^2.3.5",
+    "node-expat": "^2.3.18",
+    "readable-stream": "^3.6.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "main": "index",
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^7.1.1"
   }
 }
